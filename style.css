@@ -1,11 +1,11 @@
 .button {
  border-radius: 7px;
- padding: 12px 6px;
+ padding: 6px 12px;
  margin: 4px;
- font-weight: 700;
+ font-size: 16px;
  background-color: hsl(40, 100%, 40%);
  border: hsl(40, 100%, 40%) solid 2px;
  font-family: 'Roboto', sans-serif;
  color: white;
- list-style-type: none;
+ text-decoration: none;
 }
