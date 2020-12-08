@@ -24,3 +24,19 @@
 .button:focus {
     outline: none;
 }
+
+.button.ok {
+    background-color: hsl(110, 100%, 40%) ;
+    border: solid 2px hsl(110, 100%, 40%);
+}
+.button.ok:hover {
+    background-color: hsl(40, 100%, 35%);
+    border: solid 2px hsl(40, 100%, 40%);
+}
+.button.ok:active {
+    background-color: hsl(40, 100%, 40%);
+    border: solid 2px hsl(40, 100%, 40%);
+}
+.button.ok:focus {
+    outline: none;
+}
