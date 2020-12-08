@@ -5,12 +5,22 @@
  margin: 4px;
  font-size: 16px;
  background-color: hsl(40, 100%, 40%);
- border: hsl(40, 100%, 40%) solid 2px;
+ border: solid 2px hsl(40, 100%, 40%);
  font-family: 'Roboto', sans-serif;
  color: white;
  text-decoration: none;
 }
 
 .button:hover {
-    background-color: hsl(40, 100%, 35%) ;
+    background-color: hsl(40, 100%, 35%);
+    border: solid 2px hsl(40, 100%, 40%);
+}
+
+.button:active {
+    background-color: hsl(40, 100%, 40%);
+    border: solid 2px hsl(40, 100%, 40%);
+}
+
+.button:focus {
+    outline: none;
 }
