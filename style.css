@@ -1,5 +1,5 @@
 .button {
-    display: inline-block;
+ display: inline-block;
  border-radius: 7px;
  padding: 6px 12px;
  margin: 4px;
@@ -55,4 +55,9 @@
 }
 .button.ok:focus {
     outline: none;
+}
+
+.button.small {
+    padding: 4px 8px;
+    font-size: 14px;
 }
