@@ -1,24 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --hue-default: 40;
+    --hue-ok: 118;
+    --hue-danger: 0;
+}
 .button {
  display: inline-block;
  border-radius: 7px;
  padding: 6px 12px;
  margin: 4px;
  font-size: 16px;
- background-color: hsl(40, 100%, 40%);
- border: solid 2px hsl(40, 100%, 40%);
- font-family: 'Roboto', sans-serif;
+ background-color: hsl(var(--hue-default), 100%, 40%);
+ border: solid 2px hsl(var(--hue-default), 10%, 62%);
  color: white;
  text-decoration: none;
 }
 
 .button:hover {
-    background-color: hsl(40, 100%, 35%);
-    border: solid 2px hsl(40, 100%, 40%);
+    background-color: hsl(var(--hue-default), 100%, 35%);
+    border: solid 2px hsl(var(--hue-default), 100%, 40%);
 }
 
 .button:active {
-    background-color: hsl(40, 100%, 40%);
-    border: solid 2px hsl(40, 100%, 40%);
+    background-color: hsl(var(--hue-default), 100%, 40%);
+    border: solid 2px hsl(var(--hue-default), 100%, 40%);
 }
 
 .button:focus {
@@ -26,32 +32,32 @@
 }
 
 .button.ok {
-    background-color: hsl(110, 100%, 40%) ;
+    background-color: hsl(var(--hue-ok), 100%, 40%) ;
     border: solid 2px hsl(110, 100%, 40%);
 }
 .button.ok:hover {
-    background-color: hsl(40, 100%, 35%);
+    background-color: hsl(var(--hue-ok), 100%, 35%);
     border: solid 2px hsl(40, 100%, 40%);
 }
 .button.ok:active {
-    background-color: hsl(40, 100%, 40%);
-    border: solid 2px hsl(40, 100%, 40%);
+    background-color: hsl(var(--hue-ok), 100%, 40%);
+    border: solid 2px hsl(var(--hue-ok), 100%, 40%);
 }
 .button.ok:focus {
     outline: none;
 }
 
 .button.danger {
-    background-color: hsl(0, 100%, 40%) ;
-    border: solid 2px hsl(0, 100%, 40%);
+    background-color: hsl(var(--hue-danger), 100%, 40%) ;
+    border: solid 2px hsl(var(--hue-danger), 100%, 40%);
 }
 .button.danger:hover {
-    background-color: hsl(40, 100%, 40%);
-    border: solid 2px hsl(40, 100%, 40%);
+    background-color: hsl(var(--hue-danger), 100%, 40%);
+    border: solid 2px hsl(var(--hue-danger), 100%, 40%);
 }
 .button.danger:active {
-    background-color: hsl(40, 100%, 40%);
-    border: solid 2px hsl(40, 100%, 40%);
+    background-color: hsl(var(--hue-danger), 100%, 40%);
+    border: solid 2px hsl(var(--hue-danger), 100%, 40%);
 }
 .button.ok:focus {
     outline: none;
@@ -65,5 +71,4 @@
     border-radius: 5px;
     padding: 8px 16px;
     font-size: 18px;
-    
 }
